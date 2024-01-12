@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #1a237e;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  background-color: #283593;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+section {
+  padding: 20px;
+}
+
+.exhibition-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.exhibition-info h2 {
+  color: #1a237e;
+}
+
+.exhibition-description {
+  line-height: 1.6;
+  color: #333;
+}
+
+.exhibition-highlights {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.highlight-card {
+  width: calc(30% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.highlight-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #1a237e;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

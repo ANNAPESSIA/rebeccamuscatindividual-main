@@ -1,0 +1,145 @@
+Webside code design idea       INDIVIDUAL REQUIRED WORK ANNA CHIARA PESSIA
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degree Exhibition - Anna Chiara Pessia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1> 3RD YEAR STUDENTS Degree Exhibition</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Exhibition Showcase</a>
+    <a href="#">Individual Exhibition</a>
+    <a href="#">Sponsors</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section>
+    <div class="exhibition-info">
+      <h2>Welcome to our Degree Exhibition</h2>
+      <p class="exhibition-description">
+        Explore the creative works of our talented graduate, Anna Chiara Pessia, Rebecca Muscat and Anisia Petruccelli. Join us for an immersive experience showcasing innovation and excellence in various fields (illustration,photography,graphic design and so much more)
+      </p>
+    </div>
+
+    <div class="exhibition-highlights">
+      <div class="highlight-card">
+        <h3>Artistic Creations</h3>
+        <p>Discover visually stunning artworks that reflect the unique perspectives of our artists.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Innovative Designs</h3>
+        <p>Experience cutting-edge designs and solutions that address real-world challenges.</p>
+      </div>
+      <div class="highlight-card">
+        <h3>Travel Photography Showcase</h3>
+        <p>Explore new countries with creativity and technology.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Exhibition</title>
+    <style>
+        body {
+            font-family: 'Aileron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        #artist-info {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #profile-picture {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        #artworks-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .artwork {
+            width: 30%;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+        .artwork img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .artwork-info {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="font-family: 'Aileron', sans-serif;">Individual Exhibition</h1>
+    </header>
+
+    <div id="artist-info">
+        <img id="profile-picture" src="https://i.postimg.cc/yx4w2MPd/Picsart-23-11-06-14-42-12-711-1.jpg" alt="Artist Profile Picture">
+        <div>
+            <h2>ANNA CHIARA PESSIA</h2>
+            <p>Anna Chiara Pessia is a current student of BFA Digital Arts at the University of Malta. Born the 16th August of 2002 in Italy, this artist showcased her best photographs in this exhibition. She maily specialize in the illustration field but she still enjoy take photographs of her journeys around the world. Below there are 3 of her best pieces depicting the most stricking subjects of the journey in the British Archipelago and in Oman. They were all taken during fall 2022.</p>
+        </div>
+    </div>
+
+    <div id="artworks-container">
+        <div class="artwork">
+            <img src="https://i.postimg.cc/N0P4yR2v/Picsart-23-05-16-19-57-01-282.jpg" alt="Artwork 1">
+            <div class="artwork-info">
+                <h3>Artwork 1 </h3>
+                <p>THE WAY TO HEAVEN.</p>
+            </div>
+        </div>
+
+        <div class="artwork">
+            <img src="https://i.postimg.cc/cJ19tsDw/Picsart-23-05-17-19-54-33-267.jpg" alt="Artwork 2">
+            <div class="artwork-info">
+                <h3>Artwork 2 </h3>
+                <p>SOLDIERS' BATTLEFIELD</p>
+            </div>
+        </div>
+
+        <div class="artwork">
+            <img src="https://i.postimg.cc/zfNpZJm4/Picsart-23-05-20-18-31-23-693.jpg" alt="Artwork 3">
+            <div class="artwork-info">
+                <h3>Artwork 3 </h3>
+                <p>FEELING SMALL.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
